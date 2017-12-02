@@ -12,5 +12,10 @@ namespace OneCraftyMiss.Web.Controllers
         {
             return View();
         }
+
+        public IActionResult Blog()
+        {
+            return View();
+        }
     }
 }

@@ -17,8 +17,9 @@
 
             <!-- Sidebar Links -->
             <ul class="list-unstyled components">
-                <li class="active"><i class="fa fa-thumb-tack  fa-2x" aria-hidden="true"></i><a href="#">Posts</a></li>                
-                <li><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i><a href="#">Media</a></li>
+                <li class="active sidebar-item"><i class="fa fa-tachometer fa-2x" aria-hidden="true"></i><a asp-area="" asp-controller="Admin" asp-action="Index">Dashboard</a></li>                
+                <li class="sidebar-item"><i class="fa fa-thumb-tack fa-2x" aria-hidden="true"></i><a asp-area="" asp-controller="Admin" asp-action="Blog">Posts</a></li>                
+                <li class="sidebar-item"><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i><a href="#">Media</a></li>
                  <!--<li>                    
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -28,7 +29,7 @@
                     </ul>
                 </li>-->
                 
-                <li><i class="fa fa-sliders fa-2x" aria-hidden="true"></i><a href="#">Settings</a></li>
+                <li class="sidebar-item"><i class="fa fa-sliders fa-2x" aria-hidden="true"></i><a href="#">Settings</a></li>
             </ul>
         </nav>
 </div>

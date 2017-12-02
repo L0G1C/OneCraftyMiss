@@ -1,1 +1,5 @@
-﻿// Write your JavaScript code.
+﻿$(document).ready(function () {
+    $(".sidebar-item").click(function () {
+        $(this).addClass("active");
+    })
+});
